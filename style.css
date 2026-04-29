@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #111827;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #3b82f6;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+}
